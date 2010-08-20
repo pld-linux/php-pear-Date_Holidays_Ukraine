@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - Driver based class to calculate holidays in the Ukraine
 Summary(pl.UTF-8):	%{_pearname} - klasa do obliczania dat świąt ukraińskich
 Name:		php-pear-%{_pearname}
-Version:	0.1.1
+Version:	0.1.2
 Release:	1
 License:	PHP License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	c57f365b2836ef8c7d3a5c9c1e70188c
+# Source0-md5:	e57428fa381649172eecee3f63997361
 URL:		http://pear.php.net/package/Date_Holidays_Ukraine/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -37,9 +37,9 @@ Ta klasa ma w PEAR status: %{_status}.
 Summary:	Tests for PEAR::%{_pearname}
 Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
-AutoReq:	no
 Requires:	%{name} = %{version}-%{release}
 AutoProv:	no
+AutoReq:	no
 
 %description tests
 Tests for PEAR::%{_pearname}.
